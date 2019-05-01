@@ -156,6 +156,9 @@ Add the configuration below to your `cypress.json` file to make changes to the d
   }
 }
 ```
+\
+## Caveats
+There is currently an issue with Snapshots and running "All Tests" in Cypress. This is an issue with Cypress and you can follow the progress on the issue [here](https://github.com/meinaart/cypress-plugin-snapshots/issues/10) and [here](https://github.com/cypress-io/cypress/issues/3090). When running "All Tests" any tests that utilize `cypress-plugin-snapshots` will throw an error.
 
 ## Roadmap
 Below is a list of functionality that is under consideration for implementing in a next version.
